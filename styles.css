@@ -1,0 +1,125 @@
+/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    /* background-color: #333; */
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Style the featured products section */
+.featured-products {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the about us section */
+.about-us {
+    background-color: #f9f9f9;
+}
+
+/* Style the contact section */
+.contact {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.featured-products img{
+    padding-left: 20px;
+}
+#carouselExampleAutoplaying{
+    padding-bottom:100px ;
+}
+.carousel-inner img{
+    
+height: 400px;
+
+}
+.coro{
+    padding-top: 100px;
+    padding-left: 120px;
+    width: 95%;
+}
+.Co-ord-set{
+    /* background-color: #333; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    flex-wrap: wrap;
+}
+.Co-ord-set h5{
+    font-size: 30px;
+    color:lightblue;
+    position: relative;
+    left: 230px;
+}
+.Co-ord-set p{
+    position: relative;
+    top: 40px;
+    color:black;
+    right: 50px;
+}
+.Co-ord-set img{
+    margin-top: 30px;
+    height: 300px;
+    border-radius: 100%;
+    padding:20px ;
+    position: relative;
+    right: -20px;
+}
+label{
+    width: 352px;
+    background-color: lightblue;
+}
+.review{
+    position: relative;
+    left: 650px;
+    margin-top: 50px;
+}
+.contact svg{
+    height: 40px;
+    color: lightblue;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+ nav ul li :hover {
+    font-size: 20px;
+   
+}
